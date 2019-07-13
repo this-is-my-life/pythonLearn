@@ -1,9 +1,2 @@
-a = int(input('a> '))
-b = int(input('b> '))
-
-print('a + b: ', a + b) # Output -> 8
-print('a - b: ', a - b) # Output -> 2
-print('a * b: ', a * b) # Output -> 15
-print('a / b: ', a / b) # Output -> 1.6666666666667
-print('a // b: ', a // b) # Output -> 1
-print('a %% b: ', a % b) # Output -> 2
+name = input('이름을 입력하세요> ')
+print(name + '님 안녕하세요!')
