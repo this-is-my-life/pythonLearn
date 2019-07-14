@@ -1,9 +1,11 @@
 def cacu():
   n = int(input('숫자를 입력하세요> '))
-  if n % 2 == 0:
-    print(str(n) + '는 짝수입니다')
-  else n % 2 == 1:
-    print(str(n) + '는 홀수입니다')
+  if n > 0:
+    print(str(n) + '는 양수입니다')
+  elif n < 0:
+    print(str(n) + '는 음수입니다')
+  else:
+    print(str(n) + '은 0입니다')
 
 while True:
   cacu()
