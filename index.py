@@ -1,8 +1,9 @@
-import math
+def cacu():
+  n = int(input('숫자를 입력하세요> '))
+  if n % 2 == 0:
+    print(str(n) + '는 짝수입니다')
+  else n % 2 == 1:
+    print(str(n) + '는 홀수입니다')
 
-
-def cacu(r):
-  print('l: ' + str(math.pi * r ** 2) + 'cm')
-  print('S: ' + str(math.pi * 2 * r) + '㎠')
-
-cacu(int(input('반지름을 입력하세요 (cm)> ')))
+while True:
+  cacu()
