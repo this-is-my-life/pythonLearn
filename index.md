@@ -16,11 +16,15 @@ math     : 수학 상수와 함수들
 time     : 시간 상수와 함수들
 
 > if else!
-elif     : if else와 동일
+elif     : else if 와 동일
 
 > 로직게이트
 and      : &&와 동일
 or       : ||와 동일
+
+> 반복문
+for a in b  : b배열을 순서대로 가져온다
+range(a, b, c) : a부터 b(미포함)까지 c를 더한 range Object을 리턴
 
 # 질문
 1. python에서는 객체를 어떻게 쓰지?
